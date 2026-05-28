@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner one=new Scanner (System.in);
+        System.out.println("enter first no");
+        int first = one.nextInt();
+         Scanner sec= new Scanner (System.in);
+        System.out.println("enter secound no");
+        int secound = sec.nextInt();
+         Scanner thi= new Scanner (System.in);
+        System.out.println("enter third no");
+        int third = thi.nextInt();
+         Scanner fort= new Scanner (System.in);
+        System.out.println("enter fourth no");
+        int fourth = fort.nextInt();
+         Scanner fift= new Scanner (System.in);
+        System.out.println("enter fifth no");
+        int fifth = fift.nextInt();
+        System.out.println(first+secound+third+fourth+fifth);
+    }
+}
